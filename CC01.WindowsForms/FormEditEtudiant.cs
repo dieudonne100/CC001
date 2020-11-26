@@ -95,5 +95,28 @@ namespace CC01.WindowsForms
                 }
             }
         }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            List<Etudiantprint> items = new List<Etudiantprint>();
+            for (int i = 0; i < dataGridView1.SelectedRows.Count; i++)
+            {
+
+                Etudiant etud = dataGridView1.  Rows[i].DataBoundItem as Etudiant;
+                items.Add(new Etudiantprint(
+                    etud.Matricule,
+                    etud.Nom,
+                    etud.Prenom,
+                    etud.Date_naissance,
+                    etud.Lieu_naissance,
+                    etud.Contact,
+                    etud.Email,
+                    etud.Photo
+                    )
+                    );
+            }
+            Form f = new FormPreview("EtudiantListe.rdlc", items);
+            f.Show();
+        }
     }
 }
