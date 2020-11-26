@@ -26,7 +26,7 @@ namespace CC01.WindowsForms
         {
             this.Callback = callback;
         }
-        public FormCarteEditEtudiant(Etudiant etudiant, Action callback) : this(callback)
+        public FormCarteEditEtudiant(Etudiant etudiant, Action callback) : this()
         {
             this.oldetudiant = etudiant;
             txtNom.Text = etudiant.Nom;
@@ -96,9 +96,13 @@ namespace CC01.WindowsForms
             }
             catch (Exception ex)
             {
-                ex.WriteTiFile();
 
-                    MessageBox.Show
+                using (StreamWriter sw = new StreamWriter("APP.LOG", true))
+                {
+                    sw.WriteLine($"{ DateTime.Now}\n{ex}");
+                }
+
+                MessageBox.Show
                (
                    ex.Message,
                    "Erreur d'occurence",
