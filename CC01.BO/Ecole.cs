@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CC01.BO
 {
-  public  class Ecole
+    public class Ecole
     {
-      
+    }
 
+}
