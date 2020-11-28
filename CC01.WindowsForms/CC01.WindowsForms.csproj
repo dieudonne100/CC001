@@ -67,11 +67,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ecole.cs">
+    <Compile Include="FormEcole.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ecole.Designer.cs">
-      <DependentUpon>Ecole.cs</DependentUpon>
+    <Compile Include="FormEcole.Designer.cs">
+      <DependentUpon>FormEcole.cs</DependentUpon>
     </Compile>
     <Compile Include="Etudiantprint.cs" />
     <Compile Include="Formmenu.cs">
@@ -107,8 +107,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <EmbeddedResource Include="Ecole.resx">
-      <DependentUpon>Ecole.cs</DependentUpon>
+    <EmbeddedResource Include="FormEcole.resx">
+      <DependentUpon>FormEcole.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EtudiantListe.rdlc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

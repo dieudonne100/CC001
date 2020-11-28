@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CC01.WindowsForms
 {
-    public partial class Ecole : Form
+    public partial class FormEcole : Form
     {
-        public Ecole()
+        public FormEcole()
         {
             InitializeComponent();
         }
@@ -20,6 +20,11 @@ namespace CC01.WindowsForms
         private void button5_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

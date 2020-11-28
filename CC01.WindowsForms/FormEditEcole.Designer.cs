@@ -58,7 +58,6 @@ namespace CC01.WindowsForms
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(541, 487);
             this.dataGridView1.TabIndex = 34;
-            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // Column1
             // 
@@ -114,7 +113,6 @@ namespace CC01.WindowsForms
             this.btnCancel.TabIndex = 88;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnCreer
             // 
@@ -127,6 +125,7 @@ namespace CC01.WindowsForms
             this.btnCreer.TabIndex = 87;
             this.btnCreer.Text = "Creer";
             this.btnCreer.UseVisualStyleBackColor = false;
+            this.btnCreer.Click += new System.EventHandler(this.btnCreer_Click);
             // 
             // button4
             // 
@@ -194,7 +193,6 @@ namespace CC01.WindowsForms
             this.Controls.Add(this.textBox7);
             this.Name = "FormListeEcole";
             this.Text = "FormListeEcole";
-            this.Load += new System.EventHandler(this.FormEditEcole_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -24,7 +24,7 @@ namespace CC01.WindowsForms
 
         private void ecoleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form f = new Ecole();
+            Form f = new FormEcole();
             f.Show();
         }
 

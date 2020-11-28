@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CC01.BO
+
 {
+    [Serializable]
   public  class Ecole
     {
         public string Identifiant { get; set; }
@@ -15,6 +17,11 @@ namespace CC01.BO
         public string Email { get; set; }
         public string Contact { get; set; }
         public string logo { get; set; }
+
+        public Ecole()//pour la serialisation 
+        {
+
+        }
 
         public Ecole(string identifiant, string nom_Ecole, string localisation, string ville, string email, string contact, string logo)
         {

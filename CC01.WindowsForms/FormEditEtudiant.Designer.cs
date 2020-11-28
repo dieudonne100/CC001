@@ -33,7 +33,7 @@ namespace CC01.WindowsForms
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnCreer = new System.Windows.Forms.Button();
             this.btnPrint = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnFresch = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.photo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnDelete = new System.Windows.Forms.Button();
@@ -98,17 +98,17 @@ namespace CC01.WindowsForms
             this.btnPrint.UseVisualStyleBackColor = false;
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
-            // button3
+            // btnFresch
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(805, 342);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(152, 45);
-            this.button3.TabIndex = 79;
-            this.button3.Text = "Fresch";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnFresch.BackColor = System.Drawing.Color.White;
+            this.btnFresch.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFresch.ForeColor = System.Drawing.Color.Black;
+            this.btnFresch.Location = new System.Drawing.Point(805, 342);
+            this.btnFresch.Name = "btnFresch";
+            this.btnFresch.Size = new System.Drawing.Size(152, 45);
+            this.btnFresch.TabIndex = 79;
+            this.btnFresch.Text = "Fresch";
+            this.btnFresch.UseVisualStyleBackColor = false;
             // 
             // btnEdit
             // 
@@ -219,7 +219,7 @@ namespace CC01.WindowsForms
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnCreer);
             this.Controls.Add(this.btnPrint);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnFresch);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.txtRecherche);
@@ -240,7 +240,7 @@ namespace CC01.WindowsForms
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnCreer;
         private System.Windows.Forms.Button btnPrint;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnFresch;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.DataGridViewTextBoxColumn photo;
         private System.Windows.Forms.Button btnDelete;

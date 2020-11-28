@@ -1,7 +1,7 @@
 ﻿
 namespace CC01.WindowsForms
 {
-    partial class Ecole
+    partial class FormEcole
     {
         /// <summary>
         /// Required designer variable.
@@ -29,55 +29,56 @@ namespace CC01.WindowsForms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ecole));
-            this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEcole));
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.txtContact = new System.Windows.Forms.TextBox();
             this.lblContact = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtVille = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNom = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button5
+            // btnCancel
             // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Red;
-            this.button5.Location = new System.Drawing.Point(345, 474);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(111, 45);
-            this.button5.TabIndex = 42;
-            this.button5.Text = "Cancel";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnCancel.BackColor = System.Drawing.Color.White;
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.Red;
+            this.btnCancel.Location = new System.Drawing.Point(345, 474);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(111, 45);
+            this.btnCancel.TabIndex = 42;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button1
+            // btnSave
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Green;
-            this.button1.Location = new System.Drawing.Point(44, 474);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 45);
-            this.button1.TabIndex = 41;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnSave.BackColor = System.Drawing.Color.White;
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.ForeColor = System.Drawing.Color.Green;
+            this.btnSave.Location = new System.Drawing.Point(44, 474);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(111, 45);
+            this.btnSave.TabIndex = 41;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // textBox3
+            // txtContact
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(182, 307);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(315, 33);
-            this.textBox3.TabIndex = 40;
+            this.txtContact.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContact.Location = new System.Drawing.Point(182, 307);
+            this.txtContact.Name = "txtContact";
+            this.txtContact.Size = new System.Drawing.Size(315, 33);
+            this.txtContact.TabIndex = 40;
             // 
             // lblContact
             // 
@@ -92,13 +93,13 @@ namespace CC01.WindowsForms
             this.lblContact.TabIndex = 39;
             this.lblContact.Text = "Contact";
             // 
-            // textBox2
+            // txtVille
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(182, 237);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(315, 33);
-            this.textBox2.TabIndex = 38;
+            this.txtVille.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVille.Location = new System.Drawing.Point(182, 237);
+            this.txtVille.Name = "txtVille";
+            this.txtVille.Size = new System.Drawing.Size(315, 33);
+            this.txtVille.TabIndex = 38;
             // 
             // label2
             // 
@@ -113,13 +114,13 @@ namespace CC01.WindowsForms
             this.label2.TabIndex = 37;
             this.label2.Text = "Ville";
             // 
-            // textBox1
+            // txtNom
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(182, 162);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(315, 33);
-            this.textBox1.TabIndex = 36;
+            this.txtNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNom.Location = new System.Drawing.Point(182, 162);
+            this.txtNom.Name = "txtNom";
+            this.txtNom.Size = new System.Drawing.Size(315, 33);
+            this.txtNom.TabIndex = 36;
             // 
             // label1
             // 
@@ -153,13 +154,13 @@ namespace CC01.WindowsForms
             this.pictureBox1.TabIndex = 33;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox4
+            // txtEmail
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(182, 369);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(315, 33);
-            this.textBox4.TabIndex = 44;
+            this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(182, 369);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(315, 33);
+            this.txtEmail.TabIndex = 44;
             // 
             // lblEmail
             // 
@@ -174,25 +175,25 @@ namespace CC01.WindowsForms
             this.lblEmail.TabIndex = 43;
             this.lblEmail.Text = "Email";
             // 
-            // Ecole
+            // FormEcole
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(517, 525);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.lblEmail);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.txtContact);
             this.Controls.Add(this.lblContact);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtVille);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNom);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Ecole";
+            this.Name = "FormEcole";
             this.Text = "FormEcole";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -203,17 +204,17 @@ namespace CC01.WindowsForms
 
         #endregion
 
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.TextBox txtContact;
         private System.Windows.Forms.Label lblContact;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtVille;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNom;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblEmail;
     }
 }

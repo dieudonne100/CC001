@@ -17,26 +17,21 @@ namespace CC01.WindowsForms
             InitializeComponent();
         }
 
-        private void FormEditEcole_Load(object sender, EventArgs e)
-        {
+        
 
-        }
-
-        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        private void btnCreer_Click(object sender, EventArgs e)
         {
-            
+            Form f = new FormEcole();
+            f.Show();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                if (MessageBox.Show("voulez vous vraiment supprimer l'etudiant??", "warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    
+            }
         }
-
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-      
     }
 }
